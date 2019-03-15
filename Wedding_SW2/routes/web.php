@@ -24,3 +24,5 @@ Route::get('/index','indexController@index');
 Route::get('/services','servicesController@index');
 
 Route::get('/team','teamController@index');
+
+Route::get('/login','loginController@login');
