@@ -5,19 +5,22 @@
 <div class="s-swiper js__swiper-one-item">
             <!-- Swiper Wrapper -->
             <div class="swiper-wrapper">
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url("{{asset('site/img/wedding/jump-2191595_1920.jpg') }}")>
-
+                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background-image: url('{{asset('site/img/wedding/jump-2191595_1920.jpg')}}')">
+                        
                     <div class="container g-text-center--xs g-ver-center--xs">
                         <div class="g-margin-b-30--xs">
                             <div class="g-margin-b-30--xs">
+                                
                                 <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white"></h2>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('{{asset('site/img/wedding/wedding-606571_1280.jpg')}};">
+                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background-image: url('{{asset('site/img/wedding/wedding-606571_1280.jpg')}}')">
+                        
                     <div class="container g-text-center--xs g-ver-center--xs">
                         <div class="g-margin-b-30--xs">
+                            
                             <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">A New Look<br>That Inspires Wedding</h1>
                         </div>
                     </div>
@@ -26,8 +29,8 @@
             <!-- End Swiper Wrapper -->
 
             <!-- Arrows -->
-            <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
-            <a href="javascript:void(0);" class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
+            <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next" style="color:goldenrod"></a>
+            <a href="javascript:void(0);" class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev" style="color:goldenrod"></a>
             <!-- End Arrows -->
             
             <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
